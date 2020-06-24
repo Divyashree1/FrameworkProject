@@ -32,4 +32,7 @@ public void searchBoxEnterTextAndClick(String searchText)throws InterruptedExcep
 	Thread.sleep(2000);
 	GenericLib.clickElement(driver, searchBtn, "search Btn");
 }
+public String getHomepageTitle() {
+	return driver.getTitle();
+}
 }

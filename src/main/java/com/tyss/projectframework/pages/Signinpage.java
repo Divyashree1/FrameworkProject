@@ -28,5 +28,8 @@ WebDriver driver;
 		GenericLib.enterText(driver, pwdTxtBox, password, "password Textbox");
 		GenericLib.clickElement(driver, loginBtn, "Login Btn");
 	}
+	public String getSigninpageTitle() {
+		return driver.getTitle();
+	}
 	
 }
