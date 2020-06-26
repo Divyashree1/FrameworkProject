@@ -8,16 +8,16 @@
       <![CDATA[Application Loaded]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="22509" started-at="2020-06-25T05:56:53Z" finished-at="2020-06-25T05:57:15Z">
+  <suite name="Default suite" duration-ms="19389" started-at="2020-06-26T06:03:29Z" finished-at="2020-06-26T06:03:48Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="22509" started-at="2020-06-25T05:56:53Z" finished-at="2020-06-25T05:57:15Z">
+    <test name="Default test" duration-ms="19389" started-at="2020-06-26T06:03:29Z" finished-at="2020-06-26T06:03:48Z">
       <class name="com.tyss.projectframework.scripts.LoginTest">
-        <test-method status="PASS" signature="setUp(org.testng.ITestContext)[pri:0, instance:com.tyss.projectframework.scripts.LoginTest@18be83e4]" name="setUp" is-config="true" duration-ms="17530" started-at="2020-06-25T11:26:53Z" finished-at="2020-06-25T11:27:10Z">
+        <test-method status="PASS" signature="setUp(org.testng.ITestContext)[pri:0, instance:com.tyss.projectframework.scripts.LoginTest@18be83e4]" name="setUp" is-config="true" duration-ms="14595" started-at="2020-06-26T11:33:29Z" finished-at="2020-06-26T11:33:43Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@5dafbe45]]>
+                <![CDATA[org.testng.TestRunner@66ea810]]>
               </value>
             </param>
           </params>
@@ -30,13 +30,13 @@
             </line>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="tc_01()[pri:0, instance:com.tyss.projectframework.scripts.LoginTest@18be83e4]" name="tc_01" duration-ms="371" started-at="2020-06-25T11:27:10Z" finished-at="2020-06-25T11:27:10Z">
+        <test-method status="FAIL" signature="tc_01()[pri:0, instance:com.tyss.projectframework.scripts.LoginTest@18be83e4]" name="tc_01" duration-ms="334" started-at="2020-06-26T11:33:43Z" finished-at="2020-06-26T11:33:44Z">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[expected [] but found [localhost]]]>
+              <![CDATA[expected [] but found [Object not found!]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [] but found [localhost]
+              <![CDATA[java.lang.AssertionError: expected [] but found [Object not found!]
 	at org.testng.Assert.fail(Assert.java:93)
 	at org.testng.Assert.failNotEquals(Assert.java:512)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
@@ -75,7 +75,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc_01 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tyss.projectframework.scripts.LoginTest@18be83e4]" name="tearDown" is-config="true" duration-ms="4529" started-at="2020-06-25T11:27:10Z" finished-at="2020-06-25T11:27:15Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tyss.projectframework.scripts.LoginTest@18be83e4]" name="tearDown" is-config="true" duration-ms="4395" started-at="2020-06-26T11:33:44Z" finished-at="2020-06-26T11:33:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
